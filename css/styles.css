@@ -240,6 +240,7 @@ img {
   transition: transform 400ms ease-in 200ms, opacity 400ms ease-in 200ms;
 }
 .modal-btn {
+  margin-bottom: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,6 +320,7 @@ img {
 }
 
 .modal-form-message {
+  font-size: 12px;
   margin-bottom: 16px;
   display: block;
   width: 100%;
@@ -381,6 +383,7 @@ img {
   color: #8e8f99;
 }
 .modal-form-agreement-link {
+  color: var(--color-iris);
 }
 .form-button {
   display: block;
@@ -810,6 +813,31 @@ img {
 .footer-social-link:focus {
   background-color: var(--color-green);
   animation: shake 2s;
+}
+.footer-form {
+}
+.footer-form-name {
+}
+.footer-subscribe-form {
+}
+.footer-subscribe-label {
+}
+/* .subscribe-form-input:focus,
+.subscribe-form-input:not(:placeholder-shown) {
+  border-color: #fff;
+} */
+.subscribe-form-input {
+}
+/* .subscribe-form-input:focus + .footer-subscribe-label,
+.subscribe-form-input:not(:placeholder-shown) + .footer-subscribe-label {
+  transform: translateY(-100%) scale(0.8);
+  color: #fff;
+} */
+.subscribe-button {
+}
+.button {
+}
+.modal-icon {
 }
 @keyframes shake {
   0%,
