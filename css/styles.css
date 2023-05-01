@@ -813,6 +813,7 @@ img {
   background-color: var(--color-green);
   animation: shake 2s;
 }
+/* Footer form */
 
 .footer-form {
   display: flex;
@@ -835,92 +836,37 @@ img {
 }
 .footer-subscribe-label {
 }
-/* .subscribe-form-input:focus,
-.subscribe-form-input:not(:placeholder-shown) {
-  border-color: #fff;
-} */
+
 .subscribe-form-input {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  width: 165px;
+  height: 40px;
 }
-/* .subscribe-form-input:focus + .footer-subscribe-label,
-.subscribe-form-input:not(:placeholder-shown) + .footer-subscribe-label {
-  transform: translateY(-100%) scale(0.8);
-  color: #fff;
-} */
+
 .subscribe-button-field {
 }
 .subscribe-button {
   width: 165px;
   height: 40px;
-}
-.subscribe-button:focus {
+  padding-left: 24px;
   background-color: var(--color-iris);
-}
-
-.subscribe-icon {
-}
-
-/* .modal-form-label {
-  display: block;
-  margin-bottom: 4px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--color-slate);
-}
-.modal-form-field {
-  position: relative;
-  margin-bottom: 8px;
-} */
-/* .modal-form-input {
-  box-sizing: border-box;
-  width: 100%;
-  height: 40px;
-  padding-left: 38px;
-  padding-right: 38px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: var(--color-iris);
+  color: var(--color-white);
   border-radius: 4px;
-  outline: 2px solid transparent;
-  transition-property: border-color var(--color-iris);
+  transition-property: background-color var(--color-green);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
-.modal-form-input:focus {
-  border: 1px solid var(--color-iris);
+.subscribe-button:hover,
+focus {
+  cursor: pointer;
+  background-color: var(--color-green);
 }
-.modal-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-  transition-property: fill-color var(--color-iris);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  pointer-events: none;
-}
-.modal-form-input:focus + .modal-form-icon {
-  fill: var(--color-iris);
-} */
-@keyframes shake {
-  0%,
-  50%,
-  100% {
-    transform: rotate(0deg);
-  }
-
-  10%,
-  30% {
-    transform: rotate(-10deg);
-  }
-
-  20%,
-  40% {
-    transform: rotate(10deg);
-  }
+.subscribe-icon {
+  margin-left: auto;
 }
